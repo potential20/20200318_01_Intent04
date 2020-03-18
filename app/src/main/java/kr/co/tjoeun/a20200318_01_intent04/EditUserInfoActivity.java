@@ -30,7 +30,7 @@ public class EditUserInfoActivity extends AppCompatActivity {
                 Intent intent = new Intent();
 //                이름입력칸에 적힌 내용을 String으로 변환해서
 //                inputName이란 이름표를 붙여 첨부.
-                intent.putExtra("input",binding.nameEdt.getText().toString());
+                intent.putExtra("inputName",binding.nameEdt.getText().toString());
 
 //                결과 입력 완료 신호 + 어떤 데이터가 들어있는지 intent 설정.
 //                RESULT_OK : 정말로 완료다! 명시 역할.
