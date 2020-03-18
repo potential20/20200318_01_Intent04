@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, EditUserInfoActivity.class);
                 startActivityForResult(intent,1000);
+
             }
         });
 //        2. 프로필 수정화면에서 이름 입력 => 확인 => 종료 / 메인으로 복귀
